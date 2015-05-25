@@ -98,7 +98,7 @@ public class HTMLParser {
         try {
             String query;
             Class.forName("java.sql.DriverManager");
-            java.sql.Connection con3 = DriverManager.getConnection("jdbc:mysql://localhost/jproject", "root", "pavitrakumar");
+            java.sql.Connection con3 = DriverManager.getConnection("jdbc:mysql://localhost/jproject", "root", "password");
             Statement st3 = con3.createStatement();
             //cleanTitle = Title.replace("'s", "");
             cleanTitle = Title.replace("'", " ");
